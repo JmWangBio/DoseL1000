@@ -3,6 +3,15 @@ DOSE-L1000
 Junmin Wang
 10/29/2023
 
+## Latest Update (10/27/2024)
+
+I have created a Shiny app that allows users to **visualize** the compound-induced 
+gene expression changes and efficacy and potency of 20 million compound-gene 
+pairs from the DOSE-L1000 database. The app can be accessed at 
+https://www.dosel1000.com
+
+## Introduction
+
 The LINCS L1000 project has collected gene expression profiles for
 thousands of compounds across a wide array of concentrations, cell
 lines, and time points. However, conventional analysis methods often
