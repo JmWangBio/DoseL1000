@@ -25,10 +25,11 @@ our work provides quantitative insights into differential gene
 expression and the potency and efficacy of compound-gene pairs across
 diverse cellular contexts (Wang et al., 2023; https://pmc.ncbi.nlm.nih.gov/articles/PMC10663987/) (Fig. 1).
 
-<div style="padding: 20px;">
-  <img src="images/Fig1.jpg" width="600" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"/>
-  <figcaption>Fig. 1. Illustration of a model-based approach for unveiling gene expression signatures, efficacy, and potency. (a) Schematic overview of model fitting and differential expression analysis. (b) Definitions of potency and efficacy.</figcaption>
+<div style="padding: 20px; text-align: center;">
+  <img src="images/Fig1.jpg" alt="model" width="600"/>
 </div>
+
+**Fig. 1.** Illustration of a model-based approach for unveiling gene expression signatures, efficacy, and potency. (a) Schematic overview of model fitting and differential expression analysis. (b) Definitions of potency and efficacy.
 
 ## Features
 
@@ -42,10 +43,11 @@ fold changes compared to linear models, robust linear models, moderated z-scores
 (Fig. 2). GAM produces the most similar log<sub>2</sub> fold changes under the same 
 perturbation condition across batches among them all.
 
-<div style="padding: 20px;">
-  <img src="images/Fig2.png" width="800" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"/>
-  <figcaption>Fig. 2. Distribution of pairwise (a) inter-batch and (b) intra-batch Pearson correlation coefficients of model-derived log<sub>2</sub> fold changes. Inter-batch correlation refers to the similarity of log<sub>2</sub> fold changes across batches under the same perturbation condition, whereas intra-batch correlation, the similarity of log<sub>2</sub> fold changes across perturbation conditions within the same batch. GAM, RLM, LM, z-score, and CDS2 stand for generalized additive model, robust linear model, linear model, moderated z-score, and the characteristic direction method, respectively.</figcaption>
+<div style="padding: 20px; text-align: center;">
+  <img src="images/Fig2.png" alt="correlation" width="800"/>
 </div>
+
+**Fig. 2.** Distribution of pairwise (a) inter-batch and (b) intra-batch Pearson correlation coefficients of model-derived log<sub>2</sub> fold changes. Inter-batch correlation refers to the similarity of log<sub>2</sub> fold changes across batches under the same perturbation condition, whereas intra-batch correlation, the similarity of log<sub>2</sub> fold changes across perturbation conditions within the same batch. GAM, RLM, LM, z-score, and CDS2 stand for generalized additive model, robust linear model, linear model, moderated z-score, and the characteristic direction method, respectively.
 
 ## How to Use DOSE-L1000
 
@@ -61,10 +63,11 @@ With this app, you can:
 - Visualize dose-response data.
 - Compare efficacy and potency across compounds, genes, or cell lines (Fig. 3).
 
-<div style="padding: 20px;">
-  <img src="images/Fig3.png" width="800" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"/>
-  <figcaption>Fig. 3. Overview of the backend database and frontend interface of DOSE-L1000-Viz.</figcaption>
+<div style="padding: 20px; text-align: center;">
+  <img src="images/Fig3.png" width="800"/>
 </div>
+
+**Fig. 3.** Overview of the backend database and frontend interface of DOSE-L1000-Viz.
 
 ## Prerequisites
 
