@@ -25,9 +25,10 @@ our work provides quantitative insights into differential gene
 expression and the potency and efficacy of compound-gene pairs across
 diverse cellular contexts (Wang et al., 2023; https://pmc.ncbi.nlm.nih.gov/articles/PMC10663987/) (Fig. 1).
 
-<div style="padding: 20px; text-align: center;">
+<div>
   <img src="images/Fig1.jpg" alt="model" width="600"/>
 </div>
+<br>
 
 **Fig. 1.** Illustration of a model-based approach for unveiling gene expression signatures, efficacy, and potency. (a) Schematic overview of model fitting and differential expression analysis. (b) Definitions of potency and efficacy.
 
@@ -43,7 +44,7 @@ fold changes compared to linear models, robust linear models, moderated z-scores
 (Fig. 2). GAM produces the most similar log<sub>2</sub> fold changes under the same 
 perturbation condition across batches among them all.
 
-<div style="padding: 20px; text-align: center;">
+<div>
   <img src="images/Fig2.png" alt="correlation" width="800"/>
 </div>
 
@@ -63,8 +64,8 @@ With this app, you can:
 - Visualize dose-response data.
 - Compare efficacy and potency across compounds, genes, or cell lines (Fig. 3).
 
-<div style="padding: 20px; text-align: center;">
-  <img src="images/Fig3.png" width="800"/>
+<div>
+  <img src="images/Fig3.png" alt="Viz" width="800"/>
 </div>
 
 **Fig. 3.** Overview of the backend database and frontend interface of DOSE-L1000-Viz.
@@ -80,13 +81,13 @@ in our DOSE-L1000 paper and can be downloaded from https://doi.org/10.5281/zenod
 All required R packages to run the scripts are listed in the header of each file. 
 
 ## Code Descriptions
-<table style="margin-top: 20px;">
+<table>
   <thead>
     <tr>
-      <th style="width:15%">Purpose</th>
-      <th style="width:10%">Folder</th>
-      <th style="width:25%">File name</th>
-      <th style="width:50%">Description</th>
+      <th>Purpose</th>
+      <th>Folder</th>
+      <th>File name</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody>
